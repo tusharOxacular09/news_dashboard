@@ -2,7 +2,7 @@
 import { useSession } from "next-auth/react"; // Importing useSession hook to get session details
 import { useRouter } from "next/navigation"; // Importing useRouter to navigate to other pages
 import { useEffect } from "react"; // Importing useEffect to handle side effects like redirection
-import Loader from "@/components/global/Loader"; // Assuming a Loader component for loading state
+import Loader from "@/components/global/Loader"; // Loader component for loading state
 
 // Define ProtectedRoute component that wraps protected content
 const ProtectedRoute = ({
@@ -33,7 +33,11 @@ const ProtectedRoute = ({
 
   // If no session exists, show a redirect message and initiate the redirect
   if (!session) {
-    return <div>Redirecting...</div>; // Display a message while the redirect is happening
+    return (
+      <div className="w-full h-screen flex items-center justify-center text-3xl font-semibold">
+        Redirecting...
+      </div>
+    ); // Display a message while the redirect is happening
   }
 
   // If session exists, render the protected content (children)

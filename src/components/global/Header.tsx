@@ -14,11 +14,10 @@ export function Header() {
   // Array of navigation items
   const navItems = [
     { destination: "/newsnexus/dashboard", name: "Dashboard" },
-    { destination: "/newsnexus/news", name: "News & Blogs" },
+    { destination: "/newsnexus/news", name: "News & Articles" },
     { destination: "/newsnexus/payout", name: "Payout Calculator" },
-    { destination: "/newsnexus/analytics", name: "Analytics" },
-    { destination: "/newsnexus/export", name: "Export Reports" },
-    { destination: "/", name: "Logout" },
+    { destination: "/newsnexus/settings", name: "Settings" },
+    { destination: "", name: "Logout" },
   ];
 
   return (

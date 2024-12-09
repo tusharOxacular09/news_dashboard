@@ -207,3 +207,55 @@ body {
 }
 
 /* Loader CSS End */
+
+/* dark theme custom styles for react-datepicker */
+.react-datepicker-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.react-datepicker-dark .react-datepicker__header {
+  background-color: #444;
+}
+
+.react-datepicker-dark .react-datepicker__current-month {
+  color: #fff;
+}
+
+.react-datepicker-dark .react-datepicker__day:hover {
+  background-color: #555;
+}
+
+/* light theme custom styles for react-datepicker */
+.react-datepicker-light {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.react-datepicker-light .react-datepicker__header {
+  background-color: #f0f0f0;
+}
+
+.react-datepicker-light .react-datepicker__current-month {
+  color: #333;
+}
+
+.react-datepicker-light .react-datepicker__day:hover {
+  background-color: #e5e5e5;
+}
+
+/* Tailwind Config for Custom Scrollbars */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: var(--tw-scrollbar-thumb, rgba(107, 114, 128, 1));
+  /* Gray by default */
+  border-radius: 100px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: var(--tw-scrollbar-track, rgba(229, 231, 235, 1));
+  /* Light gray */
+}

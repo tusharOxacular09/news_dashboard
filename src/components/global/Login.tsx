@@ -53,7 +53,7 @@ export default function Login() {
             onClick={handleSignIn}
             disabled={status === "loading"} // Disable the button while loading
             className={`flex items-center justify-center w-full bg-black text-white py-2 rounded-lg hover:bg-darkBackground transition duration-200 ${
-              status === "loading" ? "opacity-90 cursor-not-allowed" : ""
+              status === "loading" ? "cursor-not-allowed" : ""
             }`}
           >
             {status === "loading" ? (
