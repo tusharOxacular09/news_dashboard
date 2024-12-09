@@ -1,6 +1,6 @@
 # News Nexus - Your Ultimate News Dashboard
 
-**News Nexus** is an advanced, interactive, and visually appealing News Dashboard built with **Next.js**, **TypeScript**, **Redux Toolkit**, and **Tailwind CSS**. It integrates **GitHub Authentication** for secure login, provides **Chat & Graph visualizations**, and uses the **News API** for real-time news data collection. 
+**News Nexus** is an advanced, interactive, and visually appealing News Dashboard built with **Next.js**, **TypeScript**, **Redux Toolkit**, and **Tailwind CSS**. It integrates **GitHub Authentication** for secure login, provides **Chat & Graph visualizations**, and uses the **News API** for real-time news data collection.
 
 This application offers powerful features such as news search & filter, saving articles to local storage, exporting saved news as CSV & PDF, and much more. The beautifully designed admin dashboard and cool features ensure a seamless user experience.
 
@@ -8,8 +8,9 @@ This application offers powerful features such as news search & filter, saving a
 
 ### 🚀 Demo Video
 
-Watch the project in action:  
-[**Project Demo** on YouTube](https://www.youtube.com/watch?v=qDOnY-GdLe0)  
+### Watch the project in action:
+
+[![Project Demo](https://img.youtube.com/vi/qDOnY-GdLe0/0.jpg)](https://www.youtube.com/watch?v=qDOnY-GdLe0)
 
 ---
 
@@ -22,7 +23,7 @@ Watch the project in action:
 - **News API**: For real-time news data collection.
 - **NextAuth.js & GitHub Authentication**: Seamless authentication with GitHub for secure login.
 - **Chat and Graph Visualizations**: Display insightful graphical representations of news data.
-  
+
 ---
 
 ### 📦 Features
@@ -44,43 +45,43 @@ Follow the steps below to clone the project to your local machine:
 
 1. **Clone the repository**:
 
-    ```bash
-    git clone git@github.com:tusharOxacular09/news_dashboard.git
-    cd news_dashboard
-    ```
+   ```bash
+   git clone git@github.com:tusharOxacular09/news_dashboard.git
+   cd news_dashboard
+   ```
 
 2. **Install dependencies**:
 
-    Make sure you are using **Node.js v22** or above. You can verify your version using `node -v`.  
+   Make sure you are using **Node.js v22** or above. You can verify your version using `node -v`.
 
-    Install project dependencies by running:
+   Install project dependencies by running:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 3. **Set up environment variables**:
 
-    Although it's **not recommended** to push environment variables to the repository (as it could expose sensitive information), for **local testing purposes**, the required environment variables are included in the `.env.local` file.
+   Although it's **not recommended** to push environment variables to the repository (as it could expose sensitive information), for **local testing purposes**, the required environment variables are included in the `.env.local` file.
 
-    **DO NOT** push `.env.local` files to any public repository in production.  
+   **DO NOT** push `.env.local` files to any public repository in production.
 
-    In your `.env.local` file, include the following environment variables (make sure to replace the placeholders with your own credentials):
+   In your `.env.local` file, include the following environment variables (make sure to replace the placeholders with your own credentials):
 
-    ```
-    NEXT_PUBLIC_GITHUB_CLIENT_ID=your-client-id
-    NEXT_PUBLIC_GITHUB_CLIENT_SECRET=your-client-secret
-    NEXT_PUBLIC_NEWS_API_KEY=your-news-api-key
-    NEXTAUTH_URL=http://localhost:3000
-    ```
+   ```
+   NEXT_PUBLIC_GITHUB_CLIENT_ID=your-client-id
+   NEXT_PUBLIC_GITHUB_CLIENT_SECRET=your-client-secret
+   NEXT_PUBLIC_NEWS_API_KEY=your-news-api-key
+   NEXTAUTH_URL=http://localhost:3000
+   ```
 
 4. **Run the development server**:
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
-    The application will be running at `http://localhost:3000`.
+   The application will be running at `http://localhost:3000`.
 
 ---
 
@@ -109,6 +110,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 💬 Contact
 
-Feel free to reach out if you have any questions or suggestions.  
+Feel free to reach out if you have any questions or suggestions.
 
 Happy coding! ✨
